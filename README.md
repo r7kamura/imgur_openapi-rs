@@ -1,4 +1,4 @@
-# imgur-openapi
+# imgur_openapi
 
 [Imgur API](https://apidocs.imgur.com/) client library for Rust.
 
