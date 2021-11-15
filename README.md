@@ -7,5 +7,5 @@ This library is generated from [imgur-openapi](https://github.com/r7kamura/imgur
 ## Development
 
 What imgur-openapi version to be used is defined at [VERSION](/VERSION).
-Please update this file if you want to use newer version, then run `bin/build` and git-push it,
-and the new version will be automatically released to crate.io.
+When a new version of imgur-openapi is released, run `bin/build` and git-push it,
+and a new version of imgur_openapi crate will be automatically published to crate.io.
