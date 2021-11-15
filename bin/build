@@ -3,4 +3,5 @@
 docker run --rm -v $PWD:/workspace openapitools/openapi-generator-cli generate \
    -i https://raw.githubusercontent.com/r7kamura/imgur-openapi/v0.1.1/schema.oas.yml \
    -g rust \
-   -o /workspace
+   -o /workspace \
+   --package-name imgur-openapi

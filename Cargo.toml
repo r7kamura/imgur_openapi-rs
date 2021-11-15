@@ -1,5 +1,5 @@
 [package]
-name = "openapi"
+name = "imgur-openapi"
 version = "0.1.1"
 authors = ["OpenAPI Generator team and contributors"]
 edition = "2018"
