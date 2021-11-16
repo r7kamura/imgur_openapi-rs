@@ -12,6 +12,7 @@ src/models/account_images_response.rs
 src/models/account_response.rs
 src/models/account_user_follow.rs
 src/models/basic_boolean_response.rs
+src/models/basic_int32_response.rs
 src/models/basic_string_response.rs
 src/models/image.rs
 src/models/image_response.rs

@@ -10,6 +10,8 @@ pub mod account_user_follow;
 pub use self::account_user_follow::AccountUserFollow;
 pub mod basic_boolean_response;
 pub use self::basic_boolean_response::BasicBooleanResponse;
+pub mod basic_int32_response;
+pub use self::basic_int32_response::BasicInt32Response;
 pub mod basic_string_response;
 pub use self::basic_string_response::BasicStringResponse;
 pub mod image;

@@ -12,19 +12,19 @@
 
 
 #[derive(Clone, Debug, PartialEq, Default, Serialize, Deserialize)]
-pub struct AccountResponse {
+pub struct BasicInt32Response {
     #[serde(rename = "data")]
-    pub data: Box<crate::models::Account>,
+    pub data: i32,
     #[serde(rename = "status")]
     pub status: i32,
     #[serde(rename = "success")]
     pub success: bool,
 }
 
-impl AccountResponse {
-    pub fn new(data: crate::models::Account, status: i32, success: bool) -> AccountResponse {
-        AccountResponse {
-            data: Box::new(data),
+impl BasicInt32Response {
+    pub fn new(data: i32, status: i32, success: bool) -> BasicInt32Response {
+        BasicInt32Response {
+            data,
             status,
             success,
         }
