@@ -1,5 +1,7 @@
 # imgur_openapi
 
+[![test](https://github.com/r7kamura/imgur_openapi-rs/actions/workflows/test.yml/badge.svg)](https://github.com/r7kamura/imgur_openapi-rs/actions/workflows/test.yml)
+
 [Imgur API](https://apidocs.imgur.com/) client library for Rust.
 
 This library is generated from [imgur-openapi](https://github.com/r7kamura/imgur-openapi) by [openapi-generator](https://github.com/OpenAPITools/openapi-generator).
