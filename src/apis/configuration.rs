@@ -41,7 +41,7 @@ impl Default for Configuration {
     fn default() -> Self {
         Configuration {
             base_path: "https://api.imgur.com".to_owned(),
-            user_agent: Some("OpenAPI-Generator/0.1.1/rust".to_owned()),
+            user_agent: Some("imgur_openapi/0.1.1".to_owned()),
             client: reqwest::Client::new(),
             basic_auth: None,
             oauth_access_token: None,
