@@ -8,17 +8,8 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: chetan/git-restore-mtime-action@v1.1
-      - uses: actions/cache@v2
-        with:
-          path: |
-            ~/.cargo/bin/
-            ~/.cargo/git/db/
-            ~/.cargo/registry/cache/
-            ~/.cargo/registry/index/
-            target/
-          key: ${{ runner.os }}-cargo-v1-${{ hashFiles('**/Cargo.lock') }}
-      - run: cargo build
+    uses: r7kamura/workflows/.github/workflows/rust-test.yml@main
+    with:
+      clippy: false
+      fmt: false
+      test: false
